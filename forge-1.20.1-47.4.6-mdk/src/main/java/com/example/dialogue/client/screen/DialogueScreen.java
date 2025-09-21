@@ -49,7 +49,7 @@ public class DialogueScreen extends Screen {
             this.onClose();
         });
 
-        addDialogueOption(centerX - 100, centerY + 80, "OK", this::onClose);
+        addDialogueOption(centerX - 100, centerY + 90, "OK", this::onClose);
     }
 
     private void addDialogueOption(int x, int y, String text, Runnable action) {
